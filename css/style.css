@@ -1,0 +1,29 @@
+body {
+    background-color: #CCCCCC;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 350%;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    border-radius: 9pt;
+    color: white;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding: 10pt 50pt;
+    font-size: 150%;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+}
