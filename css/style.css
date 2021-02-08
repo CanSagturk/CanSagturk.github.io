@@ -14,9 +14,11 @@ h1 {
     border: none;
     border-radius: 9pt;
     color: white;
+    cursor: pointer;
     font-family: Georgia, Times, "Times New Roman", serif;
-    padding: 10pt 50pt;
     font-size: 150%;
+    min-width: 425pt;
+    padding: 10pt 50pt;
 }
 
 .button-div {
@@ -24,6 +26,27 @@ h1 {
     justify-content: center;
     align-items: center;
     width: 60%;
-    margin: 0 auto;
+    margin: -15 auto;
     padding: 15px;
+}
+
+#d-agree {
+    background-color: #027508;
+}
+
+#agree {
+    background-color: #00d10b;
+}
+
+#neutral {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+#disagree {
+    background-color: #e00b00;
+}
+
+#d-disagree {
+    background-color: #8c0700;
 }
