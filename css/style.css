@@ -1,52 +1,67 @@
 body {
-    background-color: #CCCCCC;
+  /* background: rgb(0,0,255); */
+  background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+  /*font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;*/
+  font-family: Monospace;
+  font-size: 14px;
+  color: #350452;
 }
 
 h1 {
-    color: blue;
-    text-align: center;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 350%;
+  font-size: 300%;
+  /* background: -webkit-linear-gradient(left, rgb(17, 64, 182), #3F2B96);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
-.button {
-    background-color: blue;
-    border: none;
-    border-radius: 9pt;
-    color: white;
-    cursor: pointer;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 150%;
-    min-width: 425pt;
-    padding: 10pt 50pt;
+h2 {
+  font-size: 200%;
+  /* background: -webkit-linear-gradient(left, rgb(17, 64, 182), #3F2B96);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
-.button-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    margin: -15 auto;
-    padding: 15px;
+
+.left {
+  float: left;
+  width: 60%;
 }
 
-#d-agree {
-    background-color: #027508;
+.right {
+  width: 30%;
+  float: right;
 }
 
-#agree {
-    background-color: #00d10b;
+.info_box {
+  background: #123456;
+  border: 3px;
+  border-style: outset;
+  border-color: #A8C0FF;
+  color: aliceblue;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-#neutral {
-    background-color: #FFFFFF;
-    color: #000000;
+.info_header {
+  font-size: 145%;
+  text-align: center;
 }
 
-#disagree {
-    background-color: #e00b00;
+
+#main_div {
+  width: 70%;
+  margin: 0 auto;
+  text-align: justify;
 }
 
-#d-disagree {
-    background-color: #8c0700;
+#main_title {
+  animation-name: title_animation;
+  animation-duration: 3s;
+}
+
+@keyframes title_animation {
+  from {opacity: 0.0;}
+  to {opacity: 1;}
 }
