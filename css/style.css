@@ -4,7 +4,7 @@ body {
   /*font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;*/
   font-family: Monospace;
   font-size: 14px;
-  color: #350452;
+  color: aliceblue;
 }
 
 h1 {
@@ -21,15 +21,22 @@ h2 {
   -webkit-text-fill-color: transparent; */
 }
 
-
-.left {
-  float: left;
-  width: 60%;
+p {
+  font-size: 16px;
 }
 
 .right {
-  width: 30%;
   float: right;
+  width: 60%;
+}
+
+.left {
+  width: 35%;
+  float: left;
+}
+
+date {
+  font-style: italic;
 }
 
 .info_box {
@@ -38,8 +45,8 @@ h2 {
   border-style: outset;
   border-color: #A8C0FF;
   color: aliceblue;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -49,9 +56,16 @@ h2 {
   text-align: center;
 }
 
+a:link {
+  color: rgb(255, 0, 234);
+}
+
+a:visited {
+  color: rgb(255, 0, 234);
+}
 
 #main_div {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   text-align: justify;
 }
